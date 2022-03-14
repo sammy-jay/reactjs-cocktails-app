@@ -408,3 +408,10 @@ Cocktail
     height: 5em;
   }
 }
+.text-logo {
+  letter-spacing: 1px;
+  font-size: 1.15rem;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
