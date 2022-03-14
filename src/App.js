@@ -17,6 +17,16 @@ export default function App() {
         <Route exact path="/cocktail/:id" element={<SingleCocktail />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <div className="footer">
+        Designed by
+        <span></span>
+        <a
+          href="https://github.com/sammy-jay/reactjs-cocktails-app"
+          target="_blank"
+        >
+          Tolulope Soneye
+        </a>
+      </div>
     </>
   );
 }

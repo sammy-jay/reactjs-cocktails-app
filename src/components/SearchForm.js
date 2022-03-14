@@ -5,7 +5,7 @@ export default function SearchForm() {
   const searchValue = React.useRef('');
 
   React.useEffect(() => {
-    searchValue.current.focus();
+    // searchValue.current.focus();
   }, []);
 
   function searchCocktail() {
